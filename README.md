@@ -2,7 +2,6 @@
 
 The NJHDelegateSplitter class is created to allow you to have two delegates. For example, if you want to have one UITableViewDelegate delegate and a separate UIScrollViewDelegate for the same UITableView.
 
-[![CI Status](http://img.shields.io/travis/Nikolai Johan Heum/NJHDelegateSplitter.svg?style=flat)](https://travis-ci.org/Nikolai Johan Heum/NJHDelegateSplitter)
 [![Version](https://img.shields.io/cocoapods/v/NJHDelegateSplitter.svg?style=flat)](http://cocoapods.org/pods/NJHDelegateSplitter)
 [![License](https://img.shields.io/cocoapods/l/NJHDelegateSplitter.svg?style=flat)](http://cocoapods.org/pods/NJHDelegateSplitter)
 [![Platform](https://img.shields.io/cocoapods/p/NJHDelegateSplitter.svg?style=flat)](http://cocoapods.org/pods/NJHDelegateSplitter)
