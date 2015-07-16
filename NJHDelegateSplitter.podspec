@@ -10,29 +10,23 @@
 Pod::Spec.new do |s|
   s.name             = "NJHDelegateSplitter"
   s.version          = "0.1.0"
-  s.summary          = "A short description of NJHDelegateSplitter."
-  s.description      = <<-DESC
-                       An optional longer description of NJHDelegateSplitter
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/NJHDelegateSplitter"
+  s.summary          = "The NJHDelegateSplitter class is created to allow you to have two delegates."
+  s.description      = "The NJHDelegateSplitter class is created to allow you to have two delegates. For example, if you want to have one UITableViewDelegate delegate and a separate UIScrollViewDelegate for the same UITableView."
+  s.homepage         = "https://github.com/heumn/NJHDelegateSplitter"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Nikolai Johan Heum" => "nikolaiheum@gmail.com" }
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/NJHDelegateSplitter.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/nikolaiheum'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = '*.{h,m}'
   s.resource_bundles = {
     'NJHDelegateSplitter' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.public_header_files = 'Library/src/**/*.{h}'
+  # s.frameworks = 'Foundation', ‘UIKit’
 end
